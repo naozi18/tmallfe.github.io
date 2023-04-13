@@ -1,0 +1,110 @@
+{
+ "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+  {
+   "path": "pages/index/index",
+   "style": {
+    "navigationBarTitleText": "邀请函"
+   }
+  }, {
+   "path": "pages/visit/visit",
+   "style": {
+    "navigationBarTitleText": "照片",
+    "enablePullDownRefresh": false
+   }
+
+  }, {
+   "path": "pages/video/video",
+   "style": {
+    "navigationBarTitleText": "美好时光",
+    "enablePullDownRefresh": false
+   }
+
+  }, {
+   "path": "pages/map/map",
+   "style": {
+    "navigationBarTitleText": "婚礼地点",
+    "enablePullDownRefresh": false
+   }
+
+  }, {
+   "path": "pages/guest/guest",
+   "style": {
+    "navigationBarTitleText": "宾客信息",
+    "enablePullDownRefresh": false
+   }
+
+  }
+     ,{
+            "path" : "pages/demo/demo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "index/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index2/index2",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+ "globalStyle": {
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "uni-app",
+  "navigationBarBackgroundColor": "#F8F8F8",
+  "backgroundColor": "#F8F8F8"
+ },
+ "uniIdRouter": {},
+ "tabBar": {
+  "color": "#7A7E83",
+  "selectedColor": "#3cc51f",
+  "borderStyle": "black",
+  "backgroundColor": "#ffffff",
+  "list": [{
+    "pagePath": "pages/index/index",
+    "iconPath": "static/wedding.png",
+    "selectedIconPath": "static/invite.png",
+    "text": "邀请函"
+   }, {
+    "pagePath": "pages/visit/visit",
+    "iconPath": "static/marry.png",
+    "selectedIconPath": "static/logo.png",
+    "text": "照片"
+   },
+   {
+    "pagePath": "pages/video/video",
+    "iconPath": "static/video.png",
+    "selectedIconPath": "static/logo.png",
+    "text": "美好时光"
+
+   }, {
+    "pagePath": "pages/map/map",
+    "iconPath": "static/map.png",
+    "selectedIconPath": "static/logo.png",
+    "text": "婚礼地点"
+
+   }, {
+    "pagePath": "pages/guest/guest",
+    "iconPath": "static/guest.png",
+    "selectedIconPath": "static/logo.png",
+    "text": "宾客信息"
+
+   }
+  ]
+ }
+
+}
